@@ -1,0 +1,193 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:"Helvetica";
+  text-align:center;
+}
+
+
+
+#logindiv{
+  background-color: #e6ecf0;
+  display:inline-block;
+  width:50%;
+  height:100%;
+  position:absolute;
+  right:0;
+  top:0;
+}
+#logindiv2{
+  top:30%;
+  left:30%;
+  position: absolute;
+  width:50%;
+  display:inline-block;
+  margin:0 auto;
+}
+
+#logindiv2 h2{
+  text-align: left;
+  font-size:27px;
+  line-height:32px;
+  width:66%;
+  
+}
+/*wrong login*/
+#wronglogin{
+  display:none;
+  margin-top:1%;
+  margin-left:10%;
+  height:7%;
+  width:30%;
+  color:white;
+  background-color: #1da1f2;
+}
+
+#wronglogin h4{
+  float:right; 
+  margin-top:0;
+}
+
+#wronglogin h4:hover{
+  cursor:pointer;
+}
+
+#wronglogin p{
+  float:left;
+  text-align:center
+}
+
+#logindiv2 p{
+  text-align: left;
+  font-size:18px;
+  line-height:24px;
+  margin-top:48px;
+  font-weight:bold;
+}
+
+#bluebox{
+  background-color: #1da1f2;
+  width:50%;
+  height:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  display: inline-block;
+}
+
+#username,#password{
+  margin-top:3.5%;
+  float:right;
+  padding:12px;
+  width:15%;
+  border-radius: 3px;
+  border:1px solid #e6ecf0;
+  font-size:14px;
+}
+
+#password{
+  margin-left:1%;
+  margin-right:1%;
+}
+#password:focus{
+  border-color:#1da1f2;
+}
+#username:focus{
+  border-color:#1da1f2;
+}
+
+#loginbutton{
+  margin-top:3.2%;
+  padding:12px;
+  float:right;
+  border-radius:100px;
+  border:1px solid;
+  border-color:#1da1f2;
+  background-color:transparent;
+  color:#1da1f2;
+  font-weight: bold;
+  font-size:14px;
+  line-height:20px;
+  margin-right:27%;
+}
+
+#loginbutton:hover{
+  background-color: RGBA(29, 161, 242, 0.2);
+}
+
+#signup{
+  background-color:#1da1f2;
+  color:#ffff;
+  display:block;
+  font-weight:bold;
+  font-size:14px;
+  border-radius:100px;
+  text-align:center;
+  width:70%;
+  /*white-space:nowrap;*/
+  margin-bottom:16px;
+  position:relative;
+  padding:6px 16px;
+  line-height:20px;
+  border:none;
+}
+
+/*signup box*/
+#signupdiv{
+  display:none;
+  width:30%;
+  height:55%;
+  background-color:white;
+  position:absolute;
+  top:25%;
+  left:35%;
+  z-index:1;
+}
+
+#newusername{
+width:60%;
+font-size:14px;
+border-radius:3px;
+border:1px solid #e6ecf0;
+}
+
+#newpassword{
+font-size:14px;
+width:60%;
+border-radius: 3px;
+border:1px solid #e6ecf0;
+margin-top:20px;
+}
+
+#repeatpassword{
+  font-size:14px;
+  width:60%;
+  border-radius: 3px;
+  border:1px solid #e6ecf0;
+  margin-top:20px;
+  }
+
+#signupbutton{
+  border-radius:100px;
+  border:none;
+  font-size:14px;
+  background-color:#1da1f2;
+  color:#ffff;
+  font-weight:bold;
+  text-align:center;
+  width:61%;
+  margin-top:20px;
+  padding:6px 16px;
+}
+
+
+#signupdiv h4{
+  position:absolute;
+  margin-top:-8%;;
+  right:2%;
+}
+
+#signupdiv h4:hover{
+  cursor:pointer;
+}
